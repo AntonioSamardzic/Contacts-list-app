@@ -73,17 +73,6 @@ function AddUserForm() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            {/* <Form.Group controlId='formGBasicPassword'>
-              <Form.Label>Vrsta kontakta</Form.Label>
-              <Form.Control
-                type='text'
-                placeholder='npr. Mobitel'
-                value={data.typeOfContact}
-                onChange={(e) =>
-                  setData({ ...data, typeOfContact: e.target.value })
-                }
-              />
-            </Form.Group> */}
             <Form.Group controlId='formGBasicPassword'>
               <Form.Label>Vrsta kontakta</Form.Label>
               <Form.Control

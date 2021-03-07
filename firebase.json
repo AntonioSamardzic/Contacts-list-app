@@ -1,15 +1,18 @@
 {
   "hosting": {
-    "public": "--build",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "redirects": [
+      {
+        "source": "/kontakt",
+        "destination": "AddUserForm",
+        "type": 301
+      }
     ],
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "AddUserForm",
+        "destination": "/kontakt"
       }
     ]
   }
