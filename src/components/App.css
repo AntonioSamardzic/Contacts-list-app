@@ -1,0 +1,41 @@
+/** @format */
+
+* {
+  margin: 0;
+}
+
+.submit_button {
+  margin-top: 2rem;
+}
+
+.kontakt {
+  width: 400px;
+}
+
+.login__Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 25rem;
+}
+
+.table {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-label {
+  margin-left: 1.2rem;
+}
